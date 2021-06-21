@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap 3</title>
+        <style>
+            .orange {
+                color: orange;
+            }
+            .widthbutton {
+                width: 100%;
+            }
+            body {
+                position: relative;
+            }
+            .footermenu {
+                overflow:scroll;
+                height:400px;
+            }
+            .footer {
+                background-color: #373b3e;
+                padding: 1% 1% 1% 1%;
+            }
+            .footertext {
+                color: white;
+            }
+            .space {
+                margin-top: 2%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark nav justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">LINK 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK 7</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid" style="margin-top: 5%">
+            <div class="row ">
+                <div class="col-sm-4 nav justify-content-center">
+                    <div class="w-80 p-3" style="background-color: #eee; width: 80%">
+                        <h1 class="orange">Card 1</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur<br />sadipscing elitr, sed diam nonumy eirmod<br />tempor invidunt ut labore et dolore magna<br />aliquyam erat, sed diam voluptua.<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" fill="currentColor" class="bi bi-cup-fill" viewBox="0 0 16 16"  style="color: orange">
+                                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
+                            </svg>
+                        <button type="button" class="btn widthbutton">BUTTON 1</button>
+                    </p></div>
+                </div>
+                <div class="col-sm-4 nav justify-content-center">
+                    <div class="w-80 p-3" style="background-color: #eee; width: 80%">
+                        <h1 class="orange">Card 2</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur<br />sadipscing elitr, sed diam nonumy eirmod<br />tempor invidunt ut labore et dolore magna<br />aliquyam erat, sed diam voluptua.<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" fill="currentColor" class="bi bi-cup-fill" viewBox="0 0 16 16"  style="color: orange">
+                                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
+                            </svg>
+                        </p>
+                        <button type="button" class="btn widthbutton">BUTTON 2</button>
+                    </div>
+                </div>
+                <div class="col-sm-4 nav justify-content-center">
+                    <div class="w-80 p-3" style="background-color: #eee; width: 80%">
+                        <h1 class="orange">Card 3</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur<br />sadipscing elitr, sed diam nonumy eirmod<br />tempor invidunt ut labore et dolore magna<br />aliquyam erat, sed diam voluptua.<br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" fill="currentColor" class="bi bi-cup-fill" viewBox="0 0 16 16"  style="color: orange">
+                                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
+                            </svg>
+                        </p>
+                        <button type="button" class="btn widthbutton">BUTTON 3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid space">
+            <div class="w-80 p-3" style="background-color: #eee;">
+                <div class="row">
+                    <div class="col nav justify-content-center">
+                        <img src="Fotos/Äpfel.jpg" style="width: 150px; height: 150px" class="rounded-circle">
+                    </div>
+                    <div class="col nav justify-content-center">
+                        <img src="Fotos/Äpfel.jpg" style="width: 150px; height: 150px" class="rounded-circle">
+                    </div>
+                    <div class="col nav justify-content-center">
+                        <img src="Fotos/Äpfel.jpg" style="width: 150px; height: 150px" class="rounded-circle">
+                    </div>
+                    <div class="col nav justify-content-center">
+                        <img src="Fotos/Äpfel.jpg" style="width: 150px; height: 150px" class="rounded-circle">
+                    </div>
+                    <div class="col nav justify-content-center">
+                        <img src="Fotos/Äpfel.jpg" style="width: 150px; height: 150px" class="rounded-circle">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col justify-content-center" align="center">
+                        <a href="#">
+                            <h3>Circle 1</h3>
+                            <p>Hello World!</p>
+                        </a>
+                    </div>
+                    <div class="col justify-content-center" align="center">
+                        <a href="#">
+                            <h3>Circle 2</h3>
+                            <p>Hello World!</p>
+                        </a>
+                    </div>
+                    <div class="col justify-content-center" align="center">
+                        <a href="#">
+                            <h3>Circle 3</h3>
+                            <p>Hello World!</p>
+                        </a>
+                    </div>
+                    <div class="col justify-content-center" align="center">
+                        <a href="#">
+                            <h3>Circle 4</h3>
+                            <p>Hello World!</p>
+                        </a>
+                    </div>
+                    <div class="col justify-content-center" align="center">
+                        <a href="#">
+                            <h3>Circle 5</h3>
+                            <p>Hello World!</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footermenu space">
+            <br> <br>
+            <nav class="scrollnavbar navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">Section 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Section 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Section 3</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Section 4
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#section41">Link 1</a>
+                            <a class="dropdown-item" href="section42">Link 2</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+                <h1>Section 1</h1>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+                <h1>Section 2</h1>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+                <h1>Section 3</h1>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+                <h1>Section 4 Submenu 1</h1>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+                <h1>Section 4 Submenu 2</h1>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+        </div>
+        <div class="footer space">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1 class="footertext">Column 1</h1>
+                    <p class="footertext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="footertext">Column 2</h1>
+                    <p class="footertext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1 class="footertext">Column 3</h1>
+                    <p class="footertext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
